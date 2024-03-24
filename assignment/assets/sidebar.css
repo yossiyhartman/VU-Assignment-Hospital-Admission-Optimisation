@@ -1,0 +1,88 @@
+.sidebar {
+  background-color: #212121;
+  color: white;
+}
+.sidebar .title {
+  color: #636efa;
+  margin-bottom: 40px;
+  font-weight: 800;
+}
+.sidebar .description {
+  font-size: 13px;
+}
+.sidebar p {
+  font-size: 11px;
+  line-height: 25px;
+  font-weight: 400;
+  color: whitesmoke;
+  padding: 10px 0 15px;
+}
+.sidebar h3 {
+  font-size: 20px;
+  color: #636efa;
+  font-weight: 600;
+  margin-top: 30px;
+}
+.sidebar h2 {
+  font-size: 30px;
+  color: whitesmoke;
+  font-weight: 600;
+  margin-top: 30px;
+}
+.sidebar label {
+  font-size: 9px;
+  color: whitesmoke;
+  width: 100%;
+}
+.sidebar span {
+  font-size: 9px;
+}
+.sidebar input {
+  font-size: 11px;
+  width: 100%;
+}
+.sidebar input {
+  font-size: 11px;
+  width: 100%;
+}
+.sidebar .slider {
+  padding: 10px 5px 20px 5px !important;
+}
+.sidebar .opening_hours {
+  display: flex;
+  justify-content: space-between;
+}
+.sidebar .opening_hours div {
+  width: 45%;
+  margin-bottom: 20px;
+}
+.sidebar .opening_hours div input {
+  margin-top: 10px;
+}
+.sidebar .checkbox {
+  display: flex;
+  align-content: center;
+}
+.sidebar .checkbox input {
+  align-self: center;
+  width: auto;
+  margin-right: 15px;
+}
+.sidebar button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 12px 60px;
+  text-align: center;
+  background-color: #636efa;
+  border: 3px solid #636efa;
+  border-radius: 14px;
+  cursor: pointer;
+  transition: 100ms ease-in-out;
+  transition-property: background-color, border-radius, color;
+}
+.sidebar button:hover {
+  background-color: transparent;
+  border-radius: 5px;
+  color: white;
+}/*# sourceMappingURL=sidebar.css.map */

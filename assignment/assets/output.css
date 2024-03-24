@@ -1,0 +1,82 @@
+.output .title {
+  margin-bottom: 40px;
+  font-weight: 800;
+}
+.output .waiting-time .section-title, .output .hospital-values .section-title {
+  font-size: 40px;
+  text-align: right;
+  font-weight: 600;
+  margin-bottom: 10px;
+  margin-right: 40px;
+}
+.output .waiting-time .WT-container, .output .waiting-time .hospital-container, .output .hospital-values .WT-container, .output .hospital-values .hospital-container {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+.output .waiting-time .WT-container .metrics-container, .output .waiting-time .hospital-container .metrics-container, .output .hospital-values .WT-container .metrics-container, .output .hospital-values .hospital-container .metrics-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+.output .waiting-time .WT-container .metrics-container .card, .output .waiting-time .hospital-container .metrics-container .card, .output .hospital-values .WT-container .metrics-container .card, .output .hospital-values .hospital-container .metrics-container .card {
+  max-height: 50%;
+  height: 100%;
+  min-width: 250px;
+  padding: 20px;
+}
+.output .waiting-time .WT-container .metrics-container .card.--outline, .output .waiting-time .hospital-container .metrics-container .card.--outline, .output .hospital-values .WT-container .metrics-container .card.--outline, .output .hospital-values .hospital-container .metrics-container .card.--outline {
+  border: 2px solid black;
+}
+.output .waiting-time .WT-container .metrics-container .card.--fill, .output .waiting-time .hospital-container .metrics-container .card.--fill, .output .hospital-values .WT-container .metrics-container .card.--fill, .output .hospital-values .hospital-container .metrics-container .card.--fill {
+  background-color: rgb(99, 110, 250);
+  color: white;
+}
+.output .waiting-time .WT-container .metrics-container .card .output-title, .output .waiting-time .hospital-container .metrics-container .card .output-title, .output .hospital-values .WT-container .metrics-container .card .output-title, .output .hospital-values .hospital-container .metrics-container .card .output-title {
+  font-size: 28px;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+.output .waiting-time .WT-container .metrics-container .card .output-value, .output .waiting-time .hospital-container .metrics-container .card .output-value, .output .hospital-values .WT-container .metrics-container .card .output-value, .output .hospital-values .hospital-container .metrics-container .card .output-value {
+  font-size: 40px;
+}
+.output .waiting-time .WT-container .metrics-container .card .output-value.--prob::after, .output .waiting-time .hospital-container .metrics-container .card .output-value.--prob::after, .output .hospital-values .WT-container .metrics-container .card .output-value.--prob::after, .output .hospital-values .hospital-container .metrics-container .card .output-value.--prob::after {
+  content: " %";
+  font-size: 20px;
+}
+.output .waiting-time .WT-container .metrics-container .card .output-value.--avg::after, .output .waiting-time .hospital-container .metrics-container .card .output-value.--avg::after, .output .hospital-values .WT-container .metrics-container .card .output-value.--avg::after, .output .hospital-values .hospital-container .metrics-container .card .output-value.--avg::after {
+  content: " Hours";
+  font-size: 20px;
+}
+.output .waiting-time .WT-container .metrics-container .card .output-value.--patients::after, .output .waiting-time .hospital-container .metrics-container .card .output-value.--patients::after, .output .hospital-values .WT-container .metrics-container .card .output-value.--patients::after, .output .hospital-values .hospital-container .metrics-container .card .output-value.--patients::after {
+  content: " Patients";
+  font-size: 20px;
+}
+.output .waiting-time .graph-container, .output .hospital-values .graph-container {
+  border: 2px solid black;
+  padding: 20px;
+  width: 100%;
+}
+.output .hospital-values {
+  margin-top: 20px;
+}
+.output .hospital-values .section-title {
+  text-align: left;
+}
+.output .STRC-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 20px;
+}
+.output .STRC-container .--card {
+  margin-top: 20px;
+  width: 50%;
+  border: 2px solid black;
+  padding: 20px;
+}
+.output .STRC-container .--card .output-title {
+  font-size: 28px;
+  margin-bottom: 10px;
+  margin-top: 0;
+}/*# sourceMappingURL=output.css.map */

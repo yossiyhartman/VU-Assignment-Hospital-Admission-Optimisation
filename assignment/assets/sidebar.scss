@@ -1,0 +1,108 @@
+.sidebar {
+    background-color: #212121;
+    color: white;
+
+    .title {
+        color: #636efa;
+        margin-bottom: 40px;
+        font-weight: 800;
+    }
+
+    .description {
+        font-size: 13px;
+    }
+
+    p {
+        font-size: 11px;
+        line-height: 25px;
+        font-weight: 400;
+        color: whitesmoke;
+        padding: 10px 0 15px;
+    }
+
+    h3 {
+        font-size: 20px;
+        color: #636efa;
+        font-weight: 600;
+        margin-top: 30px;
+    }
+
+    h2 {
+        font-size: 30px;
+        color: whitesmoke;
+        font-weight: 600;
+        margin-top: 30px;
+    }
+
+    label {
+        font-size: 9px;
+        color: whitesmoke;
+        width: 100%;
+    }
+
+    span {
+        font-size: 9px;
+    }
+
+    input {
+        font-size: 11px;
+        width: 100%;
+    }
+
+
+    input {
+        font-size: 11px;
+        width: 100%;
+    }
+
+    .slider {
+        padding: 10px 5px 20px 5px !important;
+    }
+
+    .opening_hours {
+        display: flex;
+        justify-content: space-between;
+
+        div {
+            width: 45%;
+            margin-bottom: 20px;
+
+            input {
+                margin-top: 10px;
+            }
+        }
+    }
+
+    .checkbox {
+        display: flex;
+        align-content: center;
+
+        input {
+            align-self: center;
+            width: auto;
+            margin-right: 15px;
+        }
+    }
+
+    button {
+        display: block;
+        margin: 0 auto;
+        margin-top: 40px;
+        padding: 12px 60px;
+        text-align: center;
+        background-color: #636efa;
+        border: 3px solid #636efa;
+        border-radius: 14px;
+        cursor: pointer;
+        transition: 100ms ease-in-out;
+        transition-property: background-color, border-radius, color;
+
+        &:hover {
+            background-color:transparent;
+            border-radius: 5px;
+            color: white;
+        }
+    }
+}
+
+

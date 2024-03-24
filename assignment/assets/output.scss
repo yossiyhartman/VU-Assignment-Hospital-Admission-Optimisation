@@ -1,0 +1,111 @@
+.output {
+    .title {
+        margin-bottom: 40px;
+        font-weight: 800;
+    }
+    .waiting-time, .hospital-values {
+
+        .section-title {
+            font-size: 40px;
+            text-align: right;
+            font-weight: 600;
+            margin-bottom: 10px;
+            margin-right: 40px;
+
+        }
+
+        .WT-container, .hospital-container {
+            width: 100%;
+            display: flex;
+            gap: 20px;
+        
+            .metrics-container {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                gap: 20px;
+
+                .card {
+                    max-height: 50%;
+                    height: 100%;
+                    min-width: 250px;
+                    padding: 20px;
+
+                    &.--outline {
+                        border: 2px solid black;
+                    }
+
+                    &.--fill {
+                        background-color: rgb(99, 110, 250);
+                        color: white;
+                    }
+
+                    .output-title {
+                        font-size: 28px;
+                        margin-bottom: 10px;
+                        margin-top: 0;
+                    }
+
+                    .output-value {
+                        font-size: 40px;
+
+                        &.--prob {
+                            &::after {
+                                content: " %";
+                                font-size: 20px;
+                            }
+                        }
+
+                        &.--avg {
+                            &::after {
+                                content: " Hours";
+                                font-size: 20px;
+                            }
+                        }
+
+
+                        &.--patients {
+                            &::after {
+                                content: " Patients";
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+
+        .graph-container {
+            border: 2px solid black;
+            padding: 20px;
+            width: 100%;
+        }
+    }
+
+    .hospital-values{
+        margin-top: 20px;
+        .section-title{
+            text-align: left;
+        }
+    }
+
+    .STRC-container {
+        display: flex;
+        justify-content: space-between;
+        gap: 0 20px;
+
+        .--card{
+            margin-top: 20px;
+            width: 50%;
+            border: 2px solid black;
+            padding: 20px;
+    
+            .output-title {
+                font-size: 28px;
+                margin-bottom: 10px;
+                margin-top: 0;
+            }
+        }
+    }
+}

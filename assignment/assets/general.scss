@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap');
+
+
+*, *:after, *:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+h1, h2, h3, p, label, li, button, span {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+input {
+    padding: 8px 10px;
+    border-radius: 5px;
+}
+
+input:focus{
+    box-shadow: 0px 3px 0px 0px rgb(99, 110, 250);
+}
+
+.output-graph .main-svg {
+    background-color: transparent !important;
+}
+
+
+.output-graph .main-svg .bg {
+    fill: transparent !important;
+}
+

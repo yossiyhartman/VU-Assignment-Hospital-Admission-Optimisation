@@ -1,0 +1,21 @@
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  background-color: whitesmoke;
+  overflow: hidden;
+}
+.container .content {
+  width: 100%;
+  display: flex;
+}
+.container .content .sidebar {
+  width: 400px;
+  padding: 30px 30px 50px;
+}
+.container .content .output {
+  min-width: 1000px;
+  width: 100%;
+  padding: 30px 50px;
+}/*# sourceMappingURL=structure.css.map */
