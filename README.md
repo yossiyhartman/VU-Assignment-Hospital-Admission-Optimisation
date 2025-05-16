@@ -1,10 +1,11 @@
-## Optimisation of Business Processes Course - Dashboard Project
-Welcome to my repository for the Optimisation of Business Processes course assignment at VU Amsterdam. This project showcases a dynamic dashboard created with Python, leveraging the Dash and Plotly to visualize and manage the allocation and handling of incoming patients in a hospital setting.
+# Optimisation of Business Processes – Dashboard Project (VU Amsterdam)
 
-### Project Overview
-For this project, We were given distributions of incomming patients. The dashboard developed for this assignment integrates various parameters, such as type of patient, expected stay duration, likelihood of recovery, and the need for homecare post-discharge, to optimize the patient flow and resource allocation within a hospital. Through this interactive tool, users can simulate different scenarios by adjusting parameters to observe potential outcomes and make informed decisions to improve efficiency and patient care.
+This repository contains my assignment for the Optimisation of Business Processes course at VU Amsterdam. The project centers around building an interactive dashboard using Python, Dash, and Plotly to help visualize and manage the flow of incoming patients in a hospital setting.
 
-### Key Features
-- Interactive Data Visualization: Utilizes Dash and Plotly for real-time, interactive data visualizations.
-- Scenario Simulation: Allows users to adjust parameters like patient type, expected stay, and more to test different hospital management strategies.
-- Optimization Insights: Provides actionable insights on how to place and handle patients effectively, improving overall hospital efficiency.
+#### Project Overview
+In this assignment, we were provided with distributions of incoming patients and tasked with developing a tool to support better decision-making in hospital resource management.
+The dashboard lets users explore how different factors like patient type, length of stay, recovery likelihood, and post-discharge care needs impact patient flow and hospital efficiency. By adjusting these parameters, users can simulate various scenarios and gain insight into how to improve operations and care outcomes.
+
+#### Includes
+- **Interactive Data Visualization**: Built with Dash and Plotly for real-time, user-friendly visualizations of patient data and hospital capacity.
+- **Scenario Simulation**: Users can tweak parameters such as patient types, expected stay duration, and care needs to explore different planning strategies.
